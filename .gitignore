@@ -1,0 +1,20 @@
+# Skip temporary files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Skip the virtual environment
+venv/
+.env
+
+# Skip the compiled files
+*.log
+*.csv
+*.sqlite3
+*.db
+Zaki_*_report.pdf
+
+# Skip OS Settings (VS Code or PyCharm)
+.vscode/
+.idea/
